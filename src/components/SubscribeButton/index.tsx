@@ -1,6 +1,6 @@
 import { signIn, useSession } from 'next-auth/client'
 import { api } from '../../services/api'
-import { getStripeJs } from '../../services/stripeJS'
+import { getStripeJs } from '../../services/stripeJs'
 import styles from './styles.module.scss'
 
 interface SubscribeButtonProps {
